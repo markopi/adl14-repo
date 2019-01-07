@@ -33,14 +33,14 @@ description
 	>
 	lifecycle_state = <"0">
 	details = <
-		["sv"] = <
-			language = <[ISO_639-1::sv]>
+		["fi"] = <
+			language = <[ISO_639-1::fi]>
 			other_details = <
 				["notes"] = <"Generated automatically by Adl Designer">
 			>
 		>
-		["fi"] = <
-			language = <[ISO_639-1::fi]>
+		["sv"] = <
+			language = <[ISO_639-1::sv]>
 			other_details = <
 				["notes"] = <"Generated automatically by Adl Designer">
 			>
@@ -50,7 +50,7 @@ description
 		>
 	>
 	other_details = <
-		["MD5-CAM-1.0.1"] = <"b84f095608a86ab4c91e2c7e8c3e0732">
+		["MD5-CAM-1.0.1"] = <"3fcbea6750b8066a5e305d7dff477836">
 		["build_uid"] = <"ecd41c97-7ed2-300f-874d-7c47a531f55c">
 	>
 
@@ -73,7 +73,7 @@ definition
 					}
 				}
 			}
-			ISM_TRANSITION[at0003] matches {    -- Postponed 2
+			ISM_TRANSITION[at0003] matches {    -- Postponed
 				current_state matches {
 					DV_CODED_TEXT matches {
 						defining_code matches {
@@ -84,7 +84,7 @@ definition
 				careflow_step matches {
 					DV_CODED_TEXT matches {
 						defining_code matches {
-							[local::at0003]    -- Postponed 2
+							[local::at0003]    -- Postponed
 						}
 					}
 				}
@@ -209,7 +209,7 @@ ontology
 					description = <"This is a state descripition">
 				>
 				["at0003"] = <
-					text = <"Postponed 2">
+					text = <"Postponed">
 					description = <"This is a state descripition">
 				>
 				["at0004"] = <
