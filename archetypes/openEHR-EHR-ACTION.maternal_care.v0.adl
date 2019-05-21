@@ -33,14 +33,14 @@ description
 	>
 	lifecycle_state = <"0">
 	details = <
-		["fi"] = <
-			language = <[ISO_639-1::fi]>
+		["sv"] = <
+			language = <[ISO_639-1::sv]>
 			other_details = <
 				["notes"] = <"Generated automatically by Adl Designer">
 			>
 		>
-		["sv"] = <
-			language = <[ISO_639-1::sv]>
+		["fi"] = <
+			language = <[ISO_639-1::fi]>
 			other_details = <
 				["notes"] = <"Generated automatically by Adl Designer">
 			>
